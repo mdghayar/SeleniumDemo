@@ -17,6 +17,12 @@ Feature: Search Languages
     When User search Selenium tutorial
     Then Should display Selenium Search Result Page
 
+ @tag3
+  Scenario: Selenium Tutorial
+    Given User is on Google Page
+    When User search Selenium tutorial
+    Then Should display Selenium Search Result Page
+
 
 
  # @tag2
